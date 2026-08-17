@@ -1,0 +1,7 @@
+# Installable overlay / custom-base patch for `@firefly0621/dsh-skill-impeccable`.
+# Opt-in: not mounted by default on fork `dsh-base`. Prefer:
+#   dsh plugin --profile web add @firefly0621/dsh-skill-impeccable
+# Do not add that profile install on top of a base that already mounts `id: skill-impeccable`.
+- insert:
+    - id: skill-impeccable
+      name: '@firefly0621/dsh-skill-impeccable'
