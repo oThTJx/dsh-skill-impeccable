@@ -1,7 +1,7 @@
 {
   "name": "@firefly0621/dsh-skill-impeccable",
   "description": "Bundled Impeccable frontend-design skill provider for DeepSeek Harness",
-  "version": "0.1.0-rc.8",
+  "version": "0.1.0-rc.9",
   "publishConfig": {
     "access": "public"
   },
